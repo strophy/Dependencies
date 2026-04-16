@@ -1,4 +1,4 @@
-FROM ubuntu:eoan
+FROM ubuntu:noble
 
 RUN echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
 

@@ -4,7 +4,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: ubuntu:eoan
+      - image: ubuntu:noble
     steps:
       - run:
           name: Use AWS Ubuntu mirror
